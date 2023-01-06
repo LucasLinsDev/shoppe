@@ -1,0 +1,17 @@
+.aside {
+  max-width: 261px;
+}
+
+.select_box {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (max-width: 996px) {
+  .aside {
+    max-width: 100%;
+    display: none;
+  }
+}

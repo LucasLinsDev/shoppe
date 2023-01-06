@@ -1,0 +1,18 @@
+.sidebar {
+  h2 {
+    margin-top: 62px;
+  }
+  ul {
+    list-style: none;
+    margin-top: 16px;
+    li {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .sidebar {
+    display: none;
+  }
+}

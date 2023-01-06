@@ -1,0 +1,42 @@
+.about {
+  padding: 96px 0px;
+  max-width: 670px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+  h3 {
+    font: size 20px;
+    margin-top: 26px;
+    text-align: center;
+  }
+  > p {
+    margin-top: 46px;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 46px;
+  }
+  img {
+    margin-top: 46px;
+    margin: 23px 0px;
+  }
+  p {
+    margin-top: 26px;
+  }
+  ul {
+    margin-top: 26px;
+    width: 96%;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .about {
+    padding: 96px 24px;
+  }
+}

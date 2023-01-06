@@ -1,0 +1,26 @@
+.product_card {
+  h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 24px;
+    font-weight: 500;
+  }
+  p {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #a18a68;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 996px) {
+    h2 {
+      margin-top: 6px;
+      font-size: 14px;
+      color: black;
+    }
+    p {
+      margin-top: 6px;
+      font-size: 12px;
+      color: #a18a68;
+    }
+  }
+}

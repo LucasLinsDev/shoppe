@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.562);
+  position: fixed;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.header_container {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

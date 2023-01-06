@@ -1,0 +1,19 @@
+.bag_container {
+  max-width: 360px;
+  width: 100%;
+}
+
+.bag_product {
+  display: flex;
+}
+
+.product_content {
+  position: relative;
+  h2 {
+    font-size: 14px;
+  }
+
+  svg {
+    position: absolute;
+  }
+}

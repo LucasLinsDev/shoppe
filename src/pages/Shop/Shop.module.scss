@@ -1,0 +1,34 @@
+.shop {
+  display: flex;
+  gap: 50px;
+  max-width: 1440px;
+  padding: 196px 24px;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+}
+
+.shop_container {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  div {
+    padding: 0px;
+    gap: 36px;
+  }
+}
+
+@media screen and(max-width:996px) {
+  .shop_container {
+    flex-direction: column;
+    div {
+      padding: 0px;
+      gap: 16px;
+    }
+  }
+  .shop {
+    padding: 96px 24px 0px;
+    gap: 26px;
+  }
+}

@@ -1,0 +1,22 @@
+.logo {
+  font-size: 35px;
+  font-weight: 400;
+  span {
+    color: #a18a68;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  transition-duration: 0.5s;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .logo {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,168 @@
+.description_container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+}
+
+.description_item {
+  height: 60px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.description_button {
+  font-size: 20px;
+  color: black;
+  height: 60px;
+  width: max-content;
+  border-bottom: 1px solid black;
+}
+
+.description_content {
+  display: none;
+  p {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 170%;
+  }
+}
+.description_aditional {
+  margin-top: 40px;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  div {
+    span:fist-child {
+      font-size: 16px;
+      color: #000000;
+      margin-right: 16px;
+    }
+    span:last-child {
+      font-size: 16px;
+      color: #707070;
+    }
+  }
+}
+
+.description_review {
+  display: flex;
+  gap: 50px;
+  > div {
+    flex: 1;
+  }
+}
+
+.review {
+  margin-top: 46px;
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #707070;
+  }
+
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.review_item {
+  display: flex;
+  margin-top: 46px;
+  align-items: center;
+  gap: 20px;
+  span {
+    color: #707070;
+  }
+}
+.review_star {
+  display: flex;
+  margin-top: 16px;
+}
+
+.form_reviews {
+  h2 {
+    font-weight: 400;
+  }
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form_textarea {
+  > label {
+    margin-top: 46px;
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  textarea {
+    border: 0px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+}
+.form_input {
+  display: flex;
+  height: 42px;
+  width: 100%;
+
+  input {
+    outline: none;
+    width: 100%;
+    padding: 12px 0px;
+    border: 0px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+}
+
+.form_checkbox {
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+  input {
+    margin-top: 2px;
+  }
+  span {
+    color: #707070;
+    font-size: 12px;
+  }
+}
+.form_stars {
+  margin-top: 26px;
+}
+.form_start_container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+}
+
+.form_button {
+  background: #000000;
+  color: white;
+  font-size: 18px;
+  width: 125px;
+  height: 53px;
+  border: 0px;
+  border-radius: 4px;
+  margin-top: 52px;
+  font-weight: bold;
+
+  font-family: "Poppins", sans-serif;
+  transition-duration: 0.5s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and(max-width:996px) {
+  .description_review {
+    flex-direction: column;
+  }
+}

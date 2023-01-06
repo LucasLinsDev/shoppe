@@ -1,0 +1,62 @@
+.form_comment {
+  max-width: 670px;
+  width: 100%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 46px;
+    margin-bottom: 26px;
+  }
+  p {
+    font-size: 14px;
+    color: #707070;
+  }
+}
+
+.form_control {
+  width: 100%;
+  input {
+    height: 50px;
+    width: 100%;
+    margin-top: 16px;
+    border: 0px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid rgb(205, 205, 205);
+  }
+  input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.form_control_checkbox {
+  margin: 26px 0px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.form_control_textbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  textarea {
+    border: 0px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+  }
+}
+
+.button_dark {
+  margin-top: 64px;
+  width: 197px;
+  height: 53px;
+  border-radius: 4px;
+  background: black;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  font-family: "Poppins", sans-serif;
+}
