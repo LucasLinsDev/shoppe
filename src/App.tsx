@@ -11,6 +11,7 @@ import { Blog } from "./pages/Blog/Blog";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Contact } from "./pages/Contact/Contact";
+import Image from "./pages/Image/Index";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/shop" element={<Shop/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/image" element={<Image/>}/>
       </Routes>
     </BrowserRouter>
   );
